@@ -27,8 +27,8 @@ const config = {
                       displayName, email, createdAt, ...additionalData
                  })
 
-           } catch(error){
-               console.log('error createing user', error.message);
+          } catch(error){
+               console.log('error creating user', error.message);
            }
 
          }
